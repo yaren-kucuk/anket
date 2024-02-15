@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anket</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+</head>
+<body>
+
+    <section id="header">
+        <div class="bg-white   text-center  py-4">
+            <div class="container">
+                <h2 class="text-danger display-4 my-4" > anket</h2>
+            </div>
+        </div>
+    </section>
+    <div class="result d-none py-4 bg-white text-center">
+        <div class="container lead">
+        <p><span class="text-danger display-4 p-3">0%</span>okula dönmek istiyorsun</p>
+    </div>
+    </div>
+
+    <section id="questions">
+        <div class="bg-secondary py3">
+            <div class="container">
+                <form class="questions-form  text-white">
+                        <p>1. yüz yüze eğitim daha verimli</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1"  value="e" checked>
+                            <label class="form-check-label" >
+                              evet
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1"  value="h">
+                            <label class="form-check-label" >
+                              hayır
+                            </label>
+                    </div>
+                    <div class="my-4">
+                        <p>2.okula dönmek istiyorum </p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2"  value="e" checked>
+                            <label class="form-check-label" >
+                              evet
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2"  value="h">
+                            <label class="form-check-label" >
+                              hayır
+                            </label>
+                    </div>
+                    <div class="my-4">
+                        <p>3. evdeyken ders çalışamıyorum</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3"  value="e" checked>
+                            <label class="form-check-label" >
+                              evet
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3"  value="h">
+                            <label class="form-check-label" >
+                              hayır
+                            </label>
+                    </div>
+                    <div class="my-4">
+                        <p>4. evdeyken konular yetişmiyor</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4"  value="e" checked>
+                            <label class="form-check-label" >
+                              evet
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4"  value="h">
+                            <label class="form-check-label" >
+                              hayır
+                            </label>
+                    </div>
+                    
+                        </div>
+                        <div>
+                            <input type="submit" class="btn btn-light">
+                        </div>
+
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
